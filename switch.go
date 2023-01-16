@@ -45,7 +45,8 @@ func main() {
 			fmt.Println("I'm a int")
 
 		default:
-			fmt.Println("Don't know type %T\n", t)
+			some := fmt.Sprintf("Don't know type %T\n", t)
+			fmt.Println(some)
 		}
 	}
 
